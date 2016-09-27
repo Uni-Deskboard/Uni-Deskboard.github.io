@@ -2,7 +2,7 @@ README
 
 Équipe 2
 
-
+Vincent Harvey (8780303)
 Thomas Charette (8475447)
 
 
