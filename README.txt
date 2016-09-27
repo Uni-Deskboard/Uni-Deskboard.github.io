@@ -2,10 +2,9 @@ README
 
 Équipe 2
 
-Vincent Harvey (8780303)
+
 Thomas Charette (8475447)
-Kevin Gatera (8725061)
-Noah Habte (8247514)
+
 
 
 Produit : Uni-Deskboard
