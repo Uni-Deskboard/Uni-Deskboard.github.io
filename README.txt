@@ -1,10 +1,11 @@
 README
 
-Équipe 2
+Équipe 2: Uni-Deskboard
++++++++++
 
 Vincent Harvey (8780303)
 Thomas Charette (8475447)
-
+Kevin Gatera Mugabo (8725061)
 
 
 Produit : Uni-Deskboard
