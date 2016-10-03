@@ -15,3 +15,4 @@ Description : Notre produit est un site web et/ou une app qui permet de réunir, 
 différentes plateformes que nous utilisons dans le cadre de nos cours à l’université
 (exemple : MonLabXL, MapleTA, Blackboard, gmail, echo360, etc.) et ainsi lier
 les notifications, messages, devoirs, etc. dans un même endroit.
+.
