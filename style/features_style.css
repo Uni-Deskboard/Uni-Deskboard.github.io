@@ -47,6 +47,11 @@ a {
 
 .feature_title, .description{
 	border: 5px solid #5CCC35;
+	border-style: inset;
+	/*background-color: #5CFF35;*/
+	/*background-color: #90E372;*/
+	
+
 	
 }
 .content .feature{
@@ -60,8 +65,11 @@ a {
 	width: 98%;
 }
 .feature_title{
+	color: white;
+	background-color: #24CC0A;
 	font-size: 2em;
-	border: 10px solid #5CCC35;
+	/*border: 10px solid #5CCC35;*/
+	border: 10px solid #1EBF00;
 	height: 200px;
 	display: table-cell;
 	vertical-align: middle;
