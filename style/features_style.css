@@ -44,3 +44,13 @@ body {
 a {
     text-decoration: none;
 }
+
+.feature_title, .description{
+	border: 1px solid #5CCC35;
+}
+.content .feature{
+	float: left;
+	width: calc(25% - 30px);
+	text-align: center;
+	padding:0px 10px;
+}
