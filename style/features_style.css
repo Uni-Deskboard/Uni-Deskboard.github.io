@@ -61,13 +61,13 @@ a {
 	padding:0px 10px;
 }
 .description{
-	font-size: 1.8em;
-	width: 98%;
+	font-size: 1.2em;
+	width: 97%;
 }
 .feature_title{
 	color: white;
 	background-color: #24CC0A;
-	font-size: 2em;
+	font-size: 1.5em;
 	/*border: 10px solid #5CCC35;*/
 	border: 10px solid #1EBF00;
 	height: 200px;
@@ -76,5 +76,11 @@ a {
 	width: 25%;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
+}
+footer{
+	clear: both;
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
 }
 	
