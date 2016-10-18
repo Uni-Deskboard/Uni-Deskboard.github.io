@@ -1,0 +1,80 @@
+body {
+    font-family: "Dosis", sans-serif;
+    text-align: center;
+}
+
+#menu {
+    padding-bottom: 5%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#menu div > img {
+    float:left;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-top: 5%;
+}
+#menu ul > li {
+    background-color: #5CCC35;
+    border-radius: 20px;
+    -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+    font-size: 25pt;
+    margin-right: 5px;
+    padding: 0px 15px 5px 15px;
+    text-shadow: 2px 2px 2px #000;
+    display: inline-block;
+    width: 16%;
+    transition: all .2s ease-in-out;
+}
+#menu ul > li:hover{
+    background-color: #61FF3B;
+    transform: scale(0.8); 
+}
+#menu ul a{
+    color:#FFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+.feature_title, .description{
+	border: 5px solid #5CCC35;
+	border-style: inset;
+	/*background-color: #5CFF35;*/
+	/*background-color: #90E372;*/
+	
+
+	
+}
+.content .feature{
+	float: left;
+	width: calc(25% - 30px);
+	text-align: center;
+	padding:0px 10px;
+}
+.description{
+	font-size: 1.8em;
+	width: 98%;
+}
+.feature_title{
+	color: white;
+	background-color: #24CC0A;
+	font-size: 2em;
+	/*border: 10px solid #5CCC35;*/
+	border: 10px solid #1EBF00;
+	height: 200px;
+	display: table-cell;
+	vertical-align: middle;
+	width: 25%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+	
