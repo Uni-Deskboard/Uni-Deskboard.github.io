@@ -1,77 +1,101 @@
 <!DOCTYPE html>
-
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <link type="text/css" rel="stylesheet" href="style/css.css"/>
-        <title>Uni-Deskboard</title>
-    </head>
-    <body>
-        
-        <nav id="menu">
-            <div>
-                <img src="images/logo.png" alt="logo" width="200px" height="200px"/>
-            </div>
-            <ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="features.html">Features</a></li>
-				<li><a href="pricing.html">Pricing</a></li>
-				<li><a href="team.html">Team</a></li>
-			</ul>
-        </nav>
-        <section id="home-header">
-            <div id="home-pictures"> <!-- background-image: url("img.jpg") : défilement plusieurs photos. -->
-                <div class="intro">
-                    <p>Uni-Deskboard, enjoyable as well as usefull.</p>
-                </div>
-                <div class="button">
-                    <a href="#features">Begin!</a>
-                </div>
-            </div>
-        </section>
-        <section id="home-content">
-            <article id="features">
-                <div id="f-feature">
-                    <img src="lock.png" alt="lock"/>
-                    <h2>Unique password</h2>
-                    <p>Short description</p>
-                </div>
-                <div id="s-feature">
-                    <img src="mail.png" alt="emails"/>
-                    <h2>Notifications</h2>
-                    <p>Short description</p>
-                </div>
-                <div id="t-feature">
-                    <img src="phone.png" alt="phones"/>
-                    <h2>Smart phones</h2>
-                    <p>Short description</p>
-                </div>
-            </article>
-            <div id="home-more">
-                <p>short explanation.</p>
-                <a href="features.html">And more!</a>
-            </div>
-        </section>
-        <section id="home-contact">
-            <div class="infos">
-                <h3>Uni-Deskboard</h3>
-                <h4>Phone number : 123 456-7890</h4>
-                <p>Address : 456, Laurier st. Ottawa, ON.</p>
-                <p>Email : unideskboard@gmail.com</p>
-            </div>
-            <div class="contact-form">
-                <form>
-                    <label id="u-email">Email : </label><input type="text"/>
-                    <label id="u-message">Text : </label><textarea></textarea>
-                    <a href="send.js">Send</a>
-                </form>
-                <a href="facebook.com"><img src="facebook.png" alt="facebook"/></a>
-                <a href="linkedin.com"><img src="linkedin.png" alt="linkedin"/></a>
-                <a href="github.com"><img src="github.png" alt="github"/></a>
-            </div>
-        </section>
-        <footer>
-            <p>©2016 Uni-Deskboard [etc.]</p>
-        </footer>
-    </body>
+<html>
+<head>
+	<title>Uni-Deskboard</title>
+	<link rel="stylesheet" type="text/css" href="style/css.css">
+	<link rel="stylesheet" type="text/css" href="style/fonts.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Lato" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0">
+	<meta charset="UTF-8">
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<header>
+				<div class="menu_bar">
+					<a href="#" class="bt-menu"><span class="icon-menu"></span>Menu</a>
+				</div>
+				<nav>
+					<ul>
+						<li style="float: left; position: relative;"><a href="#"><img src="images/phones.png"></img></a></li>
+						<li><a href="#"><span class="icon-home"></span>Home</a></li>
+						<li><a href="#"><span class="icon-grin"></span>Features</a></li>
+						<li><a href="#"><span class="icon-coin-dollar"></span>Pricing</a></li>
+						<li><a href="#"><span class="icon-phone"></span>Team</a></li>
+						<li><a href="#"><span class="icon-key"></span>Contact us</a></li>
+					</ul>
+				</nav>
+			</header>
+		</div>
+		<div id="content">
+			<section id="home-header">
+		            <div id="home-pictures">
+		                <div class="intro">
+		                    <p>Uni-Deskboard, enjoyable as well as usefull.</p>
+		                </div>
+		                <div class="button">
+		                    <a id="scroll" href="#features">Begin!</a>
+		                </div>
+		            </div>
+		    </section>			    
+		    <section id="home-content">
+		    	<div class="home-features">
+			        <article id="features">
+			            <div id="f-feature">
+			                <img src="images/lock.png" alt="lock"/>
+			                <hr>
+			                <h2>Unique password</h2>
+			                <p>You will only need to remember one and UNIQUE password.</p>
+			            </div>
+			            <div id="s-feature">
+			                <img src="images/notifs.png" alt="emails"/>
+			                <hr>
+			                <h2>Notifications</h2>
+			                <p>You will have a notification for every update made in your account. (homework, examinations, new readings, etc.)</p>
+			            </div>
+			            <div id="t-feature">
+			                <img src="images/phones.png" alt="phones"/>
+			                <hr>
+			                <h2>Smart phones</h2>
+			                <p>Short description</p>
+			            </div>
+			        </article>
+		        </div>
+		        <br><br>
+		        <div id="home-more">
+		            <p>What do you need? We have it.</p>
+		            <p>Indeed, all these features are very big advantages in the use of our product.</p><br>
+		            <div class="button">
+		            	<a href="features.html">And more!</a>
+		        	</div>
+		        </div>
+		    </section>
+		    <section id="home-contact">
+		        <div class="infos">
+		            <h3>Uni-Deskboard</h3>
+		            <h4>Phone number : 123 456-7890</h4>
+		            <p>Address : 456, Laurier st. Ottawa, ON.</p>
+		            <p>Email : unideskboard@gmail.com</p>
+		        </div>
+		        <div class="contact-form">
+		            <form>
+		                <label id="u-email">Email : </label><input type="text"/>
+		                <label id="u-message">Text : </label><textarea></textarea>
+		                <a href="send.js">Send</a>
+		            </form>
+		            <a href="facebook.com"><img src="facebook.png" alt="facebook"/></a>
+		            <a href="linkedin.com"><img src="linkedin.png" alt="linkedin"/></a>
+		            <a href="github.com"><img src="github.png" alt="github"/></a>
+		        </div>
+		    </section>
+		</div>
+	    <div id="footer">
+	    	<footer>
+	        	<p>Copyright © 2016 Uni-Deskboard ~ Created by Software Engineering Students ~ University of Ottawa</p>
+	    	</footer>
+		</div>
+	</div>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/js.js"></script>
+</body>
 </html>
