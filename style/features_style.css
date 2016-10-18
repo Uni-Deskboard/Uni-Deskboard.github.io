@@ -3,48 +3,19 @@ body {
     text-align: center;
 }
 
-#menu {
-    padding-bottom: 5%;
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
-#menu div > img {
-    float:left;
-}
-
-#menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    padding-top: 5%;
-}
-#menu ul > li {
-    background-color: #5CCC35;
-    border-radius: 20px;
-    -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
-    -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
-    font-size: 25pt;
-    margin-right: 5px;
-    padding: 0px 15px 5px 15px;
-    text-shadow: 2px 2px 2px #000;
-    display: inline-block;
-    width: 16%;
-    transition: all .2s ease-in-out;
-}
-#menu ul > li:hover{
-    background-color: #61FF3B;
-    transform: scale(0.8); 
-}
-#menu ul a{
-    color:#FFF;
-}
-
 a {
     text-decoration: none;
 }
 
+.produit{
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.title{
+	margin-bottom: 5%;
+	color: #5CCC35;
+}
 .feature_title, .description{
 	border: 5px solid #5CCC35;
 	border-style: inset;
@@ -62,7 +33,7 @@ a {
 .description{
 	font-size: 1.2em;
 	width: 97%;
-	height: 270px;
+
 	line-height:270px;
 }
 .text{
