@@ -57,15 +57,13 @@ a {
 .content .feature{
 	float: left;
 	width: calc(25% - 30px);
-	text-align: center;
 	padding:0px 10px;
 }
 .description{
 	font-size: 1.2em;
 	width: 97%;
-	height: 325px;
-	line-height:325px;
-	text-align: center;
+	height: 270px;
+	line-height:270px;
 }
 .text{
 	display: inline-block;
@@ -88,7 +86,6 @@ a {
 footer{
 	clear: both;
 	width: 100%;
-	text-align: center;
 	padding-top: 20px;
 }
 	
