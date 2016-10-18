@@ -1,5 +1,5 @@
 body {
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Dosis", sans-serif;
     text-align: center;
 }
 
@@ -46,7 +46,8 @@ a {
 }
 
 .feature_title, .description{
-	border: 1px solid #5CCC35;
+	border: 5px solid #5CCC35;
+	
 }
 .content .feature{
 	float: left;
@@ -54,3 +55,18 @@ a {
 	text-align: center;
 	padding:0px 10px;
 }
+.description{
+	font-size: 1.8em;
+	width: 98%;
+}
+.feature_title{
+	font-size: 2em;
+	border: 10px solid #5CCC35;
+	height: 200px;
+	display: table-cell;
+	vertical-align: middle;
+	width: 25%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+	
