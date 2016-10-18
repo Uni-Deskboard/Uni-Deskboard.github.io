@@ -63,6 +63,14 @@ a {
 .description{
 	font-size: 1.2em;
 	width: 97%;
+	height: 325px;
+	line-height:325px;
+	text-align: center;
+}
+.text{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 100%;
 }
 .feature_title{
 	color: white;
