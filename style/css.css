@@ -298,6 +298,9 @@ footer{
 @media screen and (max-width: 800px) {
 		.content .feature {
 			width:50%;
-			margin-left: 25%;
+			display: block;
+			float: none;
+			margin: 0 auto;
+			display: flex;
 			}
 }
