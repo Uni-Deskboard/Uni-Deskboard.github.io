@@ -299,24 +299,17 @@ footer{
 		.content .feature {
 			float: none;
 			margin: auto;
-			width:50%;
-			}
+			width:60%;
+		}
 		.feature_title{
 			margin: 0 auto;
-			}
+		}
 		.description{
 			line-height: 100%;
-			}
+		}
 		.description .text{
 			display: block;
 			vertical-align: middle;
 			line-height: 100%;
-}
-}
-
-@media screen and (max-width: 320px) {
-		.description{
-			width: 157px;
 		}
-	
 }
