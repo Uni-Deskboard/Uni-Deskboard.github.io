@@ -295,3 +295,9 @@ footer{
 	padding-top: 20px;
 	text-align: center;
 }
+@media screen and (max-width: 800px) {
+		.content .feature {
+			width:50%;
+			margin-left: 25%;
+			}
+}
