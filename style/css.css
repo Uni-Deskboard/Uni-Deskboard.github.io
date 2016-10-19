@@ -297,8 +297,26 @@ footer{
 }
 @media screen and (max-width: 800px) {
 		.content .feature {
+			float: none;
+			margin: auto;
 			width:50%;
-			margin: 20%;
-			padding: 0px;
 			}
+		.feature_title{
+			margin: 0 auto;
+			}
+		.description{
+			line-height: 100%;
+			}
+		.description .text{
+			display: block;
+			vertical-align: middle;
+			line-height: 100%;
+}
+}
+
+@media screen and (max-width: 320px) {
+		.description{
+			width: 157px;
+		}
+	
 }
