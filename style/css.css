@@ -262,17 +262,19 @@ footer {
 	float: left;
 	width: calc(25% - 30px);
 	padding:0px 10px;
+	margin-bottom: 5%;
 }
 .description{
 	font-size: 1.2em;
 	width: 97%;
 
-	line-height:270px;
+	line-height:175px;
 }
 .text{
 	display: inline-block;
 	vertical-align: middle;
 	line-height: 100%;
+	color: #4BA62B;
 }
 .feature_title{
 	color: white;
@@ -280,7 +282,7 @@ footer {
 	font-size: 1.5em;
 	/*border: 10px solid #5CCC35;*/
 	border: 10px solid #1EBF00;
-	height: 200px;
+	height: 125px;
 	display: table-cell;
 	vertical-align: middle;
 	width: 25%;
