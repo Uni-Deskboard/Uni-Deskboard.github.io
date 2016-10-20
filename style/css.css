@@ -381,14 +381,17 @@ footer hr {
 	}
 	
 	.infos, .contact-form {
-	float: none;
-	display: block;
-    width: 100%;
-    height: 300px;
-	background: #5CCC35;
-    overflow: auto;
-    vertical-align: middle;
+		float: none;
+		display: block;
+		width: 100%;
 	}
+	/*.home-features, #f-feature, #s-feature, #t-feature {
+		float: none;
+		display: block;
+		width: 100%;
+		padding: 0px;
+		margin-right: 0px;
+	}*/
 }
 
 /*################################### Features ###################################*/
