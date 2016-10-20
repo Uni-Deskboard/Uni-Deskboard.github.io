@@ -67,7 +67,7 @@ hr {
 .infos, .contact-form {
 	float: left;
     width: calc(50%);
-    height: 300px;
+    height: 250px;
 	background: #5CCC35;
     overflow: auto;
     vertical-align: middle;
@@ -327,6 +327,10 @@ footer {
 	text-align: center;
 	background: #5CCC35;
 	padding: 20px 0px 20px 0px;
+}
+
+footer #link {
+	margin-bottom: 0.5%;
 }
 
 footer hr {
