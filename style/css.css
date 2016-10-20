@@ -126,6 +126,7 @@ hr {
     color: #555;
     font: 80% 'Dosis', sans-serif;
     width: 50%;
+    border-radius: 5px;
 }
 
 #form textarea {
