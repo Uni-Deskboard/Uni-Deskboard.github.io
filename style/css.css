@@ -155,6 +155,7 @@ hr {
     color: #000;
     margin-bottom: 2%;
 }
+
 #form input[type="submit"]:hover,
 #form input[type="button"]:hover{
     background: rgba(230, 230, 230, 1);
@@ -379,11 +380,33 @@ footer hr {
 	#contact {
 		margin-top: 0px;
 	}
+
+	.infos {
+		margin-top: 12%;
+		margin-bottom: -2%;
+	}
 	
 	.infos, .contact-form {
 		float: none;
 		display: block;
 		width: 100%;
+	}
+
+	#form input[type="text"],
+	#form input[type="email"],
+	#form textarea
+	{
+	    font: 90% 'Dosis', sans-serif;
+	    width: 70%;
+		border-radius: 5px;
+	}
+
+	#form input[type="submit"],
+	#form input[type="button"]{
+	    width: 50%;  
+	    font: 100% 'Dosis', sans-serif;
+	    margin-bottom: 2%;
+	    border-radius: 5px;
 	}
 	/*.home-features, #f-feature, #s-feature, #t-feature {
 		float: none;
