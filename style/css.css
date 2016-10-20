@@ -126,11 +126,7 @@ hr {
     color: #555;
     font: 80% 'Dosis', sans-serif;
     width: 50%;
-<<<<<<< HEAD
 	border-radius: 5px;
-=======
-    border-radius: 5px;
->>>>>>> 5861e44cd9a97eff4cc299c59c6138efa59a7fbf
 }
 
 #form textarea {
@@ -382,6 +378,16 @@ footer hr {
 
 	#contact {
 		margin-top: 0px;
+	}
+	
+	.infos, .contact-form {
+	float: none;
+	display: block;
+    width: 100%;
+    height: 300px;
+	background: #5CCC35;
+    overflow: auto;
+    vertical-align: middle;
 	}
 }
 
