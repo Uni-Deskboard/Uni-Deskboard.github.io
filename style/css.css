@@ -314,3 +314,38 @@ footer{
 			line-height: 100%;
 		}
 }
+
+/*################################### Pricing ###################################*/
+
+.FreeTrial{
+	color: white;
+	background-color: #24CC0A;
+	font-size: 2.em;
+	border: 10px solid #1EBF00;
+	height: 75px;
+	width: 75%;
+	margin: 0 auto;
+}
+.Pricing{
+	width: 320px;
+    padding: 10px;
+    border: 5px #1EBF00;
+    margin: 0; 
+	width: 100px;
+	display: inline-block;
+}
+.Title{
+	color:black;
+	margin-bottom:7%;
+	background-color: White;
+}
+.Title h1{
+	text-align:justify center;
+	margin-bottom:5px;
+	text-transform:uppercase;
+	Text-shadow:2px 2px gray;
+}
+.Listofpricing{
+	width:100%;
+	text-align:center;
+}
