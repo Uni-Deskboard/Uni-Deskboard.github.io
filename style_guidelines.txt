@@ -1,0 +1,34 @@
+Overall look for Uni-Deskboard
+==============================
+
+Overall, we want our website to look simple and dynamic. For this, we will use a strong, flashy color and contrast
+to create a dynamic feel when reading the page. We will also use animated and hoverable buttons for the dynamic feel
+and a simple navigation menu for the minimalist feel.
+
+Colors
+======
+The colors are very important to show how we feel about our product. The user must feel that Uni-Deskboard is gonna
+make his life easier and allow him to work faster. We chose these colors:
+
+-5CCC35
+-4BA62B
+-24CC0A
+-1EBF00
+-FFFFFA
+
+Iconogarphy
+===========
+We will use mostly flat and simple icons which adhere to the minimalist theme and feel.
+
+Typography
+===========
+We will use Dosis from Google Fonts
+
+Links
+=====
+Links will not be underlined.
+
+Buttons
+=======
+The menu buttons will change color (all colors from the ones chosen above) when a user hovers over it and will be flat.
+The other buttons ("begin here","more here",etc.) will get bigger when a user hovers over it.
