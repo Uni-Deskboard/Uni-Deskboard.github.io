@@ -561,3 +561,15 @@ footer{
 		padding: 10px;
 		text-decoration: none;
 }
+
+@media screen and (max-width: 800px) {
+	.pricetable{
+		display: block;
+		width: 100%;
+		
+	}
+	.AllThePricing {
+	margin: 0 auto;
+	width: 75%;
+
+}
