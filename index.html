@@ -17,12 +17,12 @@
 				</div>
 				<nav>
 					<ul>
-						<li style="float: left; position: relative;"><a href="#"><img src="images/phones.png"></img></a></li>
+						<li style="float: left; position: relative;"><a href="index.html"><img src="images/logo.png" width="100" height="100"></img></a></li>
 						<li><a href="index.html"><span class="icon-home"></span>Home</a></li>
 						<li><a href="features.html"><span class="icon-grin"></span>Features</a></li>
 						<li><a href="pricing.html"><span class="icon-coin-dollar"></span>Pricing</a></li>
 						<li><a href="team.html"><span class="icon-phone"></span>Team</a></li>
-						<li><a href="#"><span class="icon-key"></span>Contact us</a></li>
+						<li><a class="scrollcontact" href="#contact"><span class="icon-key"></span>Contact us</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -31,10 +31,10 @@
 			<section id="home-header">
 		            <div id="home-pictures">
 		                <div class="intro">
-		                    <p>Uni-Deskboard, enjoyable as well as usefull.</p>
+		                    <p>Uni-Deskboard, enjoyable as well as useful.</p>
 		                </div>
 		                <div class="button">
-		                    <a id="scroll" href="#features">Begin!</a>
+		                    <a class="scroll" href="#features">Begin!</a>
 		                </div>
 		            </div>
 		    </section>			    
@@ -57,45 +57,59 @@
 			                <img src="images/phones.png" alt="phones"/>
 			                <hr>
 			                <h2>Smart phones</h2>
-			                <p>Short description</p>
+			                <p>Uni-Deskboard is also available as a mobile app. Notifcations and apps support optimised for mobile.</p>
 			            </div>
 			        </article>
 		        </div>
 		        <br><br>
 		        <div id="home-more">
 		            <p>What do you need? We have it.</p>
-		            <p>Indeed, all these features are very big advantages in the use of our product.</p><br>
+		            <p>Indeed, all these features are a very big advantage to the use of our product.</p><br>
 		            <div class="button">
 		            	<a href="features.html">And more!</a>
 		        	</div>
 		        </div>
 		    </section>
-		    <section id="home-contact">
-		        <div class="infos">
-		            <h3>Uni-Deskboard</h3>
-		            <h4>Phone number : 123 456-7890</h4>
-		            <p>Address : 456, Laurier st. Ottawa, ON.</p>
-		            <p>Email : unideskboard@gmail.com</p>
-		        </div>
-		        <div class="contact-form">
-		            <form>
-		                <label id="u-email">Email : </label><input type="text"/>
-		                <label id="u-message">Text : </label><textarea></textarea>
-		                <a href="send.js">Send</a>
-		            </form>
-		            <a href="facebook.com"><img src="facebook.png" alt="facebook"/></a>
-		            <a href="linkedin.com"><img src="linkedin.png" alt="linkedin"/></a>
-		            <a href="github.com"><img src="github.png" alt="github"/></a>
+		    <section id="contact">
+		    	<div class="home-contact">
+			        <div class="infos">
+			            <h3>Uni-Deskboard</h3>
+			            <p><b>Phone number</b> : 123 406-7890</p>
+			            <p><b>Address</b> : 406, Laurier st. Ottawa, ON.</p>
+			            <p><b>Email</b> : unideskboard@gmail.com</p>
+			        </div>
+			        <div class="contact-form">
+			            <h3>Send us an email</h3>
+			            <form id="form">
+			            	<div id="user-name">
+			                	<input id="user" type="text" placeholder="NAME :" />
+			                </div>
+			            	<div id="user-email">
+			                	<input id="email" type="email" placeholder="EMAIL :" />
+			                </div>
+			                <div id="user-message">
+			                	<textarea id="message" placeholder="MESSAGE : "></textarea>
+			                </div>
+			                <input id="sendemail" type="submit" text="Send">
+			            </form>
+			        </div>
 		        </div>
 		    </section>
-		</div>
-	    <div id="footer">
-	    	<footer>
-	        	<p>Copyright © 2016 Uni-Deskboard ~ Created by Software Engineering Students ~ University of Ottawa</p>
-	    	</footer>
+		    <div id="footer">
+		    	<footer>
+		    		<div id="link">
+			            <a href="facebook.com" id="facebook"><img src="images/facebook_hover.png" alt="facebook" width="40px" height="40px" /></a>
+			            <a href="linkedin.com" id="linkedin"><img src="images/linkedin_hover.png" alt="linkedin" width="40px" height="40px"/></a>
+			            <a href="github.com" id="github"><img src="images/github_hover.png" alt="github" width="40px" height="40px"/></a>
+			    	</div>
+		    		<hr>
+		        	<p>Copyright © 2016 Uni-Deskboard ~ Created by Software Engineering Students ~ University of Ottawa</p>
+		    	</footer>
+			</div>
 		</div>
 	</div>
 	<script src="https://code.jquery.com/jquery-latest.js"></script>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.8.10/themes/smoothness/jquery-ui.css" type="text/css"/>
 	<script src="js/js.js"></script>
 </body>
 </html>
