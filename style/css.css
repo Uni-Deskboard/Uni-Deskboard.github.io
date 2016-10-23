@@ -594,7 +594,7 @@ footer{
     clear: both;
 }
 .member_description ul{
-    font-size: 1.8em !important;
+    font-size: 1.9em !important;
 }
 
 .title_sub{
@@ -612,6 +612,7 @@ footer{
     margin-top:1.5em;
     align-content: center;
     text-align: right;
+    font-style: oblique;    
 }
 @-webkit-keyframes fadeIn {
     0% {opacity: 0;}
