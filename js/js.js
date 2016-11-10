@@ -18,6 +18,8 @@ function main() {
 			});
 		}
 	});
+    
+    
 }
 
 $(document).on('click', '.scrollcontact', function(event){
