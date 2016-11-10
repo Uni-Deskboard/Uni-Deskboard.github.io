@@ -503,6 +503,12 @@ footer{
 			vertical-align: middle;
 			line-height: 100%;
 		}
+		.title_f{
+			font-size: 2em;
+		}
+		.overview{
+			font-size: 1em;
+		}
 }
 
 /*################################### Pricing ###################################*/
@@ -587,24 +593,38 @@ footer{
 
 .profile_pic{
     height: inherit;
-    width:40%;
-    max-height: 20%;
     max-height: 20%;
     border-radius: 10px;
     position: relative;
     margin-top:1.25em;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+.member_description.left {
+	box-shadow: -4px 5px 4px rgba(92,204,53,0.8);
+}
+
+.member_description {
+	box-shadow: 4px 5px 4px rgba(92,204,53,0.8);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 5%;
+	padding-left: 5%;
+	border-radius: 10px;
+	display: inline-block;
 }
 
 .members{
     max-width: 1140px;
-    margin: 0px;
+    margin-top: 100px;
     padding: 0 20% 0 20%;
     position: relative;
-    background-color: black;
     clear: both;
 }
 .member_description ul{
     font-size: 1.9em !important;
+    list-style-type: circle;
 }
 
 .title_sub{
@@ -622,7 +642,10 @@ footer{
     margin-top:1.5em;
     align-content: center;
     text-align: right;
-    font-style: oblique;    
+    font-style: oblique; 
+    border-bottom: 3px solid #5CCC35;
+    padding: 0 20px;  
+    margin-bottom: -20px;
 }
 @-webkit-keyframes fadeIn {
     0% {opacity: 0;}
@@ -640,15 +663,18 @@ animation-name: fadeIn;
 }
 
 .left{
-    margin: 2.5em;
+    margin: 0.5em;
     float: left;
     clear: left;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
 }
 
 .right{
-    margin: 2.5em;
     float: right;
     clear: right;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
 }
 
 #divider {
@@ -674,9 +700,11 @@ animation-name: fadeIn;
 		padding-bottom: 20px;
         align-content: left;
 	}
-    .profil_pic .right .left{
-        float: left;
-        align-content: left !important;
+    .right {
+    	float:none;
+    }
+    .left {
+    	float:none;
     }
 	.member_title{
         float: left;
