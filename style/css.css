@@ -588,6 +588,10 @@ footer{
 }
 /* ############### Team page ############*/
 
+.team_body{
+	background-color: #EAFFD6;
+	
+}
 .profile_pic{
     height: inherit;
     max-height: 20%;
@@ -637,7 +641,6 @@ footer{
     font-size: 2em;
     font-weight: bolder;
     margin-top:1.5em;
-    align-content: center;
     text-align: right;
     font-style: oblique; 
     border-bottom: 3px solid #5CCC35;
