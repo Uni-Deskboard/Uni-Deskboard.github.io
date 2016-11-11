@@ -711,15 +711,6 @@ animation-name: fadeIn;
         margin-left: 0;
 		margin: auto;
 	}
-	.description{
-		line-height: 100%;
-        margin-left: 0;
-	}
-	.description .text{
-		display: block;
-		vertical-align: middle;
-		line-height: 100%;
-	}
 	.member_description.left {
 		box-shadow: 4px 5px 4px rgba(92,204,53,0.8);
 	}
