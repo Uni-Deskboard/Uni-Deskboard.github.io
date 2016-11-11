@@ -416,13 +416,7 @@ footer hr {
 	    margin-bottom: 2%;
 	    border-radius: 5px;
 	}
-	/*.home-features, #f-feature, #s-feature, #t-feature {
-		float: none;
-		display: block;
-		width: 100%;
-		padding: 0px;
-		margin-bottom: 10px;
-	}*/
+
 }
 
 /*################################### Features ###################################*/
@@ -439,10 +433,10 @@ footer hr {
 .title_f{
 	margin-bottom: 5%;
 	color: #5CCC35;
-	font-size: 2.3em;
+	font-size: 2.8em;
 }
 .overview{
-	font-size: 1.3em;
+	font-size: 1.8em;
 }
 .feature_title, .description{
 	border: 5px solid #5CCC35;
@@ -466,6 +460,8 @@ footer hr {
 	vertical-align: middle;
 	line-height: 100%;
 	color: #4BA62B;
+	padding: 0 10px;
+	font-size: 1.15em;
 }
 .feature_title{
 	color: white;
@@ -502,6 +498,7 @@ footer{
 			display: block;
 			vertical-align: middle;
 			line-height: 100%;
+			padding: 15px;
 		}
 		.title_f{
 			font-size: 2em;
